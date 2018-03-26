@@ -9,3 +9,9 @@
 #
 # > 120
 #
+
+def factorial(number):
+  cum = 1
+  for i in range(number):
+    cum = (i+1) * cum
+  return cum
